@@ -8,10 +8,13 @@
   --white: #ffffff;
   --gray-100: #e1e1e6;
   --gray-300: #a8a8b3;
+  --gray-600: #63636b;
+  --gray-800: #333333;
   --gray-900: #121214;
   --cyan-500: #61dafb;
   --yellow-500: #eba417;
-  --light-brown: linear-gradient(to bottom, #F5DED5, #FCDBD4);
+  --light-brown1: #F5DED5;
+  --light-brown2:  #FCDBD4;
 }
 
 @media (max-width: 1080px) {
@@ -27,7 +30,7 @@
 }
 
 body {
-  background: var(--light-brown);
+  background: var(--light-brown1);
   color: var(--gray-900);
 }
 
