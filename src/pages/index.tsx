@@ -18,7 +18,6 @@ export default function Home() {
         <img src="/images/que-cura.png" alt="que cura"/>
       </section>
       <SubscribeButton />
-      {/* comment to commit */}
     </main>
     </>
   )
